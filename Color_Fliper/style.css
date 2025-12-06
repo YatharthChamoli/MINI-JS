@@ -1,0 +1,64 @@
+/* Using a Google Font for better typography */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F1F5F8;
+  /* A light initial background */
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  /* This is a modern way to center content */
+  transition: background-color 0.3s ease;
+  /* Smooth background color transition */
+}
+
+.container {
+  text-align: center;
+}
+
+.color-info {
+  background-color: #222;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* The color code will have a different weight to stand out */
+.color-code {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  /* Adds space between buttons */
+  justify-content: center;
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid #222;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #222;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* Smooth transition for hover effects */
+  letter-spacing: 1px;
+}
+
+/* Hover effect for all buttons */
+.btn:hover {
+  background-color: #222;
+  color: white;
+  transform: scale(1.05);
+  /* Slightly enlarge the button on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
